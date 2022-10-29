@@ -76,7 +76,7 @@ const articles = [
         slug : "spa",
         saisonNumber: 7,
         date : "16/12/2022",
-        level : 1/10,
+        level : 0.5/10,
         finished : false,
         infos: "Le calme avant la tempête",
         image : "spa.jpg",
@@ -91,7 +91,7 @@ const articles = [
         level : 7/10,
         finished : false,
         infos: "Prise en main des CMS",
-        image : "spa.jpg",
+        image : "cms.png",
         color: "#5436f1",
         description : "Un système de gestion de contenu1 ou SGC1 (content management system ou CMS en anglais) est un programme permettant de créer un site internet, un blogue ou encore un site de vente en ligne2. Il permet les fonctionnalités suivantes : il permet à plusieurs individus de travailler sur un même document, il fournit une chaîne de publication (workflow) offrant par exemple la possibilité de mettre en ligne le contenu des documents, il permet de séparer les opérations de gestion de la forme et du contenu, il permet de structurer le contenu (utilisation de FAQ, de documents, de blogues, de forums de discussion, etc.), il permet de hiérarchiser les utilisateurs et de leur attribuer des rôles et des permissions (utilisateur anonyme, administrateur, contributeur, etc.), certains SGC incluent la gestion de versions. Lorsque le SGC gère du contenu dynamique, on parle de système de gestion de contenu dynamique ou SGCD (Dynamic Content Management System ou DCMS). Le SGC ne doit pas être confondu avec les systèmes de gestion électronique des documents (GED) qui permettent de réaliser la gestion de contenu dans l'entreprise (notamment le cycle de vie des documents). WordPress et Wix font partie des SGC (ou CMS en anglais)."
     },
@@ -120,3 +120,5 @@ const articles = [
         description : "Selon l'étymologie, apothéose vient du latin apotheosis (« déification »), lui-même issu du grec ancien ἀποθέωσις, apotheosis, il est dérivé de θεός, theós (« dieu »)1. Dans la mythologie grecque, l'apothéose signifie l'admission du héros parmi les dieux de l'Olympe : on a pour exemples celles d'Héraclès ou d'Énée. Pendant la période romaine, l'apothéose est une cérémonie de déification (anthume ou posthume) pour les empereurs (ou exceptionnellement pour une personne de la famille ou de l'entourage de l'empereur)2. Dans la religion catholique, l'apothéose renvoie à l'ascension et à la glorification posthume de saints."
     },
 ]
+
+export {articles};

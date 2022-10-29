@@ -1,0 +1,27 @@
+<%- include('partials/head.ejs') %>
+
+    <main>
+        <h1><%=titlePage %></h1>
+        <div class="container">
+
+            <% for(let article of articles) { %>
+                <article>
+                    <a href="/saison/<%= article.slug %>">
+                        <div class="article-header" style=`background-color: <%= article.color %>`><%= article.title %></div>
+                        <div>
+                            <img class="article-img" src="/images/<%= article.image %>">
+                            <p><%= article.infos %></p>
+                            <% if (article.finished) { %>
+                                <img class="check-img" src="/images\check.jpg">
+                            <% } else { %>
+                                <img class="check-img" src="/images\cross.png">
+                            <% } %>
+                        </div>
+                    </a>
+                </article>
+            <% } %>
+
+        </div>
+    </main>
+
+<%- include('partials/foot.ejs') %>

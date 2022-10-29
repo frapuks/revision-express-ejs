@@ -1,0 +1,18 @@
+<%- include('partials/head.ejs') %>
+
+    <main style=`background-color: <%= article.color %>`>
+        <h1>Saison <%= article.saisonNumber %> - <%= article.title %></h1>
+        <img class="article-img" src="/images/<%= article.image %>">
+        <div>date de début : <%= article.date %></div>
+        <div class="barre-container"><div class="barre-level" style=`width: <%= article.level * 100 %>%`>level <%= article.level * 10 %></div></div>
+        <% if (article.finished) { %>
+            <p>Terminé</p>
+            <img class="check-img" src="/images/check.jpg">
+            <% } else { %>
+                <p>En cours</p>
+                <img class="check-img" src="/images/cross.png">
+        <% } %>
+        <p><%= article.description %></p>
+    </main>
+
+<%- include('partials/foot.ejs') %>
