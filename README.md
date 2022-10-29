@@ -35,6 +35,38 @@ Enoncé (la liste n'est forcément pas à prendre dans l'ordre)
   - h1
   - tout ce que vous voulez faire d'autre
 
+## Construction d'un article sur la home page
+
+A insérer les uns à la suite des autres dans le container
+```html
+<article>
+    <a> <!-- liens vers la page de l'article -->
+        <div></div> <!-- classe "article-header" et doit faire apparaitre le titre et prendra le background color de l'article-->
+        <div>
+            <img> <!-- classe "article-img" et source de l'image -->
+            <p></p> <!-- infos courte de l'article  -->
+            <img> <!-- classe "check-img et source de l'image "images\check.jpg" ou "images\cross.png" -->
+        </div>
+    </a>
+</article>
+```
+
+## Construction du main sur la page d'un article
+
+```html
+<main> <!-- Doit prendre le background color de l'article -->
+    <h1></h1>  <!-- Titre sous la forme "Saison # - Titre", ex "Saison 2 - Javascript" -->
+    <img>  <!-- classe "article-img" et la source de l'image -->
+    <div></div>  <!-- texte donnant la date sours la forme "date de début : #date" -->
+    <div> <!-- classe "barre-container" -->
+        <span></span>  <!-- classe "barre-level" et width en fonction du niveau et doit afficher le niveau sous forme "level #/10" -->
+    </div>
+    <p></p>  <!-- doit afficher "terminé" ou "en cours" suivant l'état du finished -->
+    <img>  <!-- classe "check-img" et source de l'image -->
+    <p></p>   <!-- doit afficher la description de l'article -->
+</main>
+```
+
 # Technologies utilisées
 
 - Javascript
@@ -49,7 +81,7 @@ Enoncé (la liste n'est forcément pas à prendre dans l'ordre)
 # Version
 
 - v1 (actuelle)
-	- première mise en ligne
+	- corrections mineures + ajout des exemples html attendus
 
 # Ressources
 
@@ -60,5 +92,8 @@ Modules Node.js :
 Images :
 - google images
 
-Programme formation :
+Contenu inspiré de la formartion (aucune de ces données n'est officielle) :
 - [O'Clock](https://oclock.io/)
+
+Articles :
+- Wikipedia

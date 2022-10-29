@@ -76,7 +76,7 @@ const articles = [
         slug : "spa",
         saisonNumber: 7,
         date : "16/12/2022",
-        level : 0.5/10,
+        level : 1/10,
         finished : false,
         infos: "Le calme avant la tempête",
         image : "images\spa.jpg",
