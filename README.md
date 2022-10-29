@@ -45,7 +45,7 @@ A insérer les uns à la suite des autres dans le container
         <div>
             <img> <!-- classe "article-img" et source de l'image -->
             <p></p> <!-- infos courte de l'article  -->
-            <img> <!-- classe "check-img et source de l'image "images\check.jpg" ou "images\cross.png" -->
+            <img> <!-- classe "check-img et source de l'image "check.jpg" ou "cross.png" -->
         </div>
     </a>
 </article>
@@ -81,7 +81,7 @@ A insérer les uns à la suite des autres dans le container
 # Version
 
 - v1 (actuelle)
-	- corrections mineures + ajout des exemples html attendus
+	- corrections mineures + ajout des exemples html attendus + modification des liens images dans l'objet articles
 
 # Ressources
 
