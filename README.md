@@ -8,7 +8,7 @@ Enoncé (la liste n'est forcément pas à prendre dans l'ordre)
 - Créer un serveur Express
 - Gérer 3 routes :
    - `/home`
-   - `/:slug` : route paramétrée pour tous les articles
+   - `/saison/:slug` : route paramétrée pour tous les articles
    - `/contact`
 - Chaque route paramétrée doit utiliser le slug de chaque article et doit afficher toutes les infos d'un seul article 
 - Transformer les fichiers html en fichiers ejs
@@ -59,7 +59,7 @@ A insérer les uns à la suite des autres dans le container
     <img>  <!-- classe "article-img" et la source de l'image -->
     <div></div>  <!-- texte donnant la date sours la forme "date de début : #date" -->
     <div> <!-- classe "barre-container" -->
-        <span></span>  <!-- classe "barre-level" et width en fonction du niveau et doit afficher le niveau sous forme "level #/10" -->
+        <div></div>  <!-- classe "barre-level" et width en fonction du niveau et doit afficher le niveau sous forme "level #/10" -->
     </div>
     <p></p>  <!-- doit afficher "terminé" ou "en cours" suivant l'état du finished -->
     <img>  <!-- classe "check-img" et source de l'image -->
@@ -80,8 +80,9 @@ A insérer les uns à la suite des autres dans le container
 
 # Version
 
-- v1 (actuelle)
-	- corrections mineures + ajout des exemples html attendus + modification des liens images dans l'objet articles
+- v1 : première mise en ligne
+- v1.5 : corrections mineures + ajout des exemples html attendus + modification des liens images dans l'objet articles
+- v2 (actuelle) : modification d'une span en div + test complet
 
 # Ressources
 

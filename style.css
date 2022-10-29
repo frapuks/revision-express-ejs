@@ -84,8 +84,6 @@ article {
 }
 
 .barre-level {
-    display: block;
     height: 1em;
-    /* width: 100px; */
     background-color: var(--couleur5);
 }
