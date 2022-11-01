@@ -1,0 +1,21 @@
+<%- include('./partials/header.ejs')  %> 
+
+<main data-color="<%= articleFound.color %>">
+    <h1>Saison <%= articleFound.season_id %> - <%= articleFound.title %></h1>
+    <img class="article-img" src="/images/<%= articleFound.image %>">
+    <div>date de début : <%= articleFound.date %></div>
+    <div class="barre-container">
+        <div class="barre-level" data-level="<%= articleFound.level %>">level <%= articleFound.level %>/10</div>
+    </div>
+    <% if (articleFound.finished) { %>
+        <p>Terminé</p>
+        <img class="check-img" src="/images/check.jpg">
+        <% } else { %>
+            <p>En cours</p>
+            <img class="check-img" src="/images/cross.png">
+    <% } %>
+    <p><%= articleFound.description %></p>
+</main>
+
+    
+<%- include('./partials/footer.ejs')  %> 
